@@ -1,0 +1,7 @@
+default:
+    # ...
+    extensions:
+        Behat\Symfony2Extension\Extension:
+          bundle: ApiBundle
+        Behat\MinkExtension\Extension:
+          default_session: 'symfony2'

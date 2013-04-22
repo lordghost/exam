@@ -1,4 +1,15 @@
-api:
-    resource: "@ApiBundle/Resources/config/routing.yml"
+api_bundle_category:
+    resource: "@ApiBundle/Resources/config/routing/category.yml"
+    prefix:   /admin
+
+api_bundle_product:
+    resource: "@ApiBundle/Resources/config/routing/product.yml"
+    prefix:   /product
+
+api_bundle_form:
+    resource: "@ApiBundle/Resources/config/routing/routing.yml"
     prefix:   /
+
+_user_bundle:
+    resource: "@UserBundle/Resources/config/routing.yml"
 

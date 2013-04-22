@@ -1,0 +1,11 @@
+file_upload_form:
+    pattern:  /file
+    defaults: { _controller: ApiBundle:Xml:upload }
+
+parser:
+    pattern:  /parse
+    defaults: { _controller: ApiBundle:Xml:parse }
+
+api_view:
+    pattern:  /
+    defaults: { _controller: ApiBundle:Xml:api }

@@ -23,7 +23,9 @@
         "behat/symfony2-extension":      "*",
         "behat/mink-extension":          "*",
         "behat/mink-browserkit-driver":  "*",
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "3.7.*",
+        "friendsofsymfony/user-bundle": "*",
+        "symfony/console": "2.*"
     },
     "scripts": {
         "post-install-cmd": [

@@ -1,0 +1,30 @@
+product:
+    pattern:  /
+    defaults: { _controller: "ApiBundle:Product:index" }
+
+product_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ApiBundle:Product:show" }
+
+product_new:
+    pattern:  /new
+    defaults: { _controller: "ApiBundle:Product:new" }
+
+product_create:
+    pattern:  /create
+    defaults: { _controller: "ApiBundle:Product:create" }
+    requirements: { _method: post }
+
+product_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ApiBundle:Product:edit" }
+
+product_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ApiBundle:Product:update" }
+    requirements: { _method: post|put }
+
+product_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ApiBundle:Product:delete" }
+    requirements: { _method: post|delete }

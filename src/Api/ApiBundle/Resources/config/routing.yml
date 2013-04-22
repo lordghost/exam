@@ -1,3 +1,4 @@
-api_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: ApiBundle:Default:index }
+api_document:
+    resource: "@ApiBundle/Resources/config/routing/document.yml"
+    prefix:   /document
+
